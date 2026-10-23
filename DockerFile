@@ -1,0 +1,4 @@
+FROM mysql:8
+# Render sets the MYSQL_* variables at runtime (step 3).
+# Data is written to /var/lib/mysql, which the Render disk will back.
+EXPOSE 3306
